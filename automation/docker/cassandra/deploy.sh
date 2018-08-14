@@ -99,7 +99,7 @@ echo "Base directory: $BASEDIR"
 DOCKER_CASSANDRA_PORT="-p $PORT:9042"
 CASSANDRA_DOCKER_IMAGE="test_dse"
 CASSANDRA_HOSTNAME="${CASSANDRA_DOCKER_IMAGE}_${UUID}"
-CASSANDRA_DSE_VERSION="4.8.10"
+CASSANDRA_DSE_VERSION="5.1.10"
 
 if [ "$KILL" == "false" ]; then
     echo "=== Build custom DSE ==="
